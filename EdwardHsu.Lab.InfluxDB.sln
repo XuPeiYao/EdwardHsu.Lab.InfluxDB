@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.InfluxDB", "EdwardHsu.Lab.InfluxDB\EdwardHsu.Lab.InfluxDB.csproj", "{DC9D654B-A8BF-4A1E-A06F-BDBFBD967B7D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5C914FF5-D358-4C75-A047-286B84D1EBCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9D654B-A8BF-4A1E-A06F-BDBFBD967B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9D654B-A8BF-4A1E-A06F-BDBFBD967B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9D654B-A8BF-4A1E-A06F-BDBFBD967B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9D654B-A8BF-4A1E-A06F-BDBFBD967B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C914FF5-D358-4C75-A047-286B84D1EBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C914FF5-D358-4C75-A047-286B84D1EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C914FF5-D358-4C75-A047-286B84D1EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C914FF5-D358-4C75-A047-286B84D1EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFC7C8D8-C551-4BAB-8E72-D83BF44FC0D3}
+	EndGlobalSection
+EndGlobal

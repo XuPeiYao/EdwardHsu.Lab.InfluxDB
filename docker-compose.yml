@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  edwardhsu.lab.influxdb:
+    image: ${DOCKER_REGISTRY-}edwardhsulabinfluxdb
+    depends_on: 
+      - influxdb
+    build:
+      context: .
+      dockerfile: EdwardHsu.Lab.InfluxDB/Dockerfile
+
+  influxdb:
+    image: influxdb:2.0
+    ports: 
+      - "8086:8086"
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: root
+      DOCKER_INFLUXDB_INIT_PASSWORD: p@SSwoRD
+      DOCKER_INFLUXDB_INIT_ORG: test
+      DOCKER_INFLUXDB_INIT_BUCKET: test
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: THIS_TOKEN_JUST_FOR_TEST
